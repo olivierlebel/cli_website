@@ -12,20 +12,27 @@ import aws from "assets/img/tech/aws.svg"
 import azure from "assets/img/tech/azure.svg"
 import bb from "assets/img/tech/bb.svg"
 import bc from "assets/img/tech/bc.png"
+import ci from "assets/img/tech/ci.svg"
 import dart from "assets/img/tech/dart.svg"
 import docker from "assets/img/tech/docker.svg"
+import esl from "assets/img/tech/esl.svg"
+import expo from "assets/img/tech/expo.png"
 import fb from "assets/img/tech/fb.svg"
 import flutter from "assets/img/tech/flutter.svg"
 import figma from "assets/img/tech/figma.svg"
+import gatsby from "assets/img/tech/gatsby.svg"
 import gh from "assets/img/tech/gh.svg"
+import go from "assets/img/tech/go.svg"
 import gp from "assets/img/tech/gp.svg"
 import gql from "assets/img/tech/gql.svg"
 import ios from "assets/img/tech/ios.svg"
 import java from "assets/img/tech/java.svg"
 import jenkins from "assets/img/tech/jenkins.png"
+import jest from "assets/img/tech/jest.svg"
 import jira from "assets/img/tech/jira.svg"
 import js from "assets/img/tech/js.svg"
 import kafka from "assets/img/tech/kafka.svg"
+import kotlin from "assets/img/tech/kotlin.svg"
 import kibana from "assets/img/tech/kibana.svg"
 import maven from "assets/img/tech/maven.svg"
 import mongo from "assets/img/tech/mongo.svg"
@@ -80,11 +87,20 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Brightcove"} placement="bottom-center">
 						<img src={bc} alt="..." width="5%" style={icon} />
 					</Tooltip>
+					<Tooltip title={"Circle CI"} placement="bottom-center">
+						<img src={ci} alt="..." width="5%" style={icon} />
+					</Tooltip>
 					<Tooltip title={"Dart"} placement="bottom-center">
 						<img src={dart} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Docker"} placement="bottom-center">
 						<img src={docker} alt="..." width="5%" style={icon} />
+					</Tooltip>
+					<Tooltip title={"ES Lint"} placement="bottom-center">
+						<img src={esl} alt="..." width="5%" style={icon} />
+					</Tooltip>
+					<Tooltip title={"Expo"} placement="bottom-center">
+						<img src={expo} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Firebase"} placement="bottom-center">
 						<img src={fb} alt="..." width="5%" style={icon} />
@@ -95,8 +111,14 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Figma"} placement="bottom-center">
 						<img src={figma} alt="..." width="5%" style={icon} />
 					</Tooltip>
+					<Tooltip title={"Gatsby"} placement="bottom-center">
+						<img src={gatsby} alt="..." width="5%" style={icon} />
+					</Tooltip>
 					<Tooltip title={"Git Hub"} placement="bottom-center">
 						<img src={gh} alt="..." width="5%" style={icon} />
+					</Tooltip>
+					<Tooltip title={"Golang"} placement="bottom-center">
+						<img src={go} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Google Play"} placement="bottom-center">
 						<img src={gp} alt="..." width="5%" style={icon} />
@@ -113,11 +135,17 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Jenkins"} placement="bottom-center">
 						<img src={jenkins} alt="..." width="5%" style={icon} />
 					</Tooltip>
+					<Tooltip title={"Jest"} placement="bottom-center">
+						<img src={jest} alt="..." width="5%" style={icon} />
+					</Tooltip>
 					<Tooltip title={"Jira"} placement="bottom-center">
 						<img src={jira} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"JavaScript"} placement="bottom-center">
 						<img src={js} alt="..." width="5%" style={icon} />
+					</Tooltip>
+					<Tooltip title={"Kotlin"} placement="bottom-center">
+						<img src={kotlin} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Kafka"} placement="bottom-center">
 						<img src={kafka} alt="..." width="5%" style={icon} />
