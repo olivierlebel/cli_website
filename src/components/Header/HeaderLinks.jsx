@@ -1,24 +1,11 @@
-/*eslint-disable*/
 import React from "react";
-// react components for routing our app without refresh
 import { Link } from "gatsby";
-
-// @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
-
-// @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
-
-// React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
-
-// core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Button from "components/CustomButtons/Button.jsx";
-
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
 function HeaderLinks({ ...props }) {
@@ -26,47 +13,85 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/all-components/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
-        />
+        <Button
+          color="transparent"
+          className={classes.navLink}
+        >
+          <Link to="/services/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+            services
+          </Link>
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <Link to="/products/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+            products
+          </Link>
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          className={classes.navLink}
+        >
+          <Link to="/blog/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+            blog
+          </Link>
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          className={classes.navLink}
+        >
+          <Link to="/about/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+            about
+          </Link>
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
+          title="Follow us on GitHub"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim"
+            color="transparent"
+            href="https://www.github.com/olivierlebel"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <FaGithub/>
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          title="Follow us on LinkedIn"
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.linkedin.com/company/console-log-inc/"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <FaLinkedin/>
+          </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          title="Follow us on Twitter"
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            href="https://twitter.com/consoleloginc"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -76,38 +101,14 @@ function HeaderLinks({ ...props }) {
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
+        <Button
+          color="transparent"
+          className={classes.navLink}
         >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/CreativeTim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaFacebook/>
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaInstagram/>
-          </Button>
-        </Tooltip>
+          <Link to="/fr/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+            fr
+          </Link>
+        </Button>
       </ListItem>
     </List>
   );
