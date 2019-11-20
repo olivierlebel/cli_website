@@ -1,6 +1,6 @@
-import React from "react";
-import ServicesPage from "./ServicesPage/ServicesPage";
+import React from "react"
+import ServicesPage from "./ServicesPage/ServicesPage"
 
 export default () => (
-  <ServicesPage/>
-);
+	<ServicesPage/>
+)
