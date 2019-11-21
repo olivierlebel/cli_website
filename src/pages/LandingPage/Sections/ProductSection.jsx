@@ -4,8 +4,6 @@ import withStyles from "@material-ui/core/styles/withStyles"
 import { Link } from "gatsby"
 import { FaAndroid, FaApple, FaGithub } from "react-icons/fa"
 import Carousel from "react-slick"
-
-// core components
 import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import Button from "components/CustomButtons/Button.jsx"

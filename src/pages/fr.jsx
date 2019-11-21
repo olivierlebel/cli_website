@@ -51,7 +51,7 @@ class FrPage extends React.Component {
 										</div>
 										<div className={classes.name}>
 											<h3 className={classes.title}>Français</h3>
-											<h6>La version française du site n'est pas encore tout à fait prête!</h6>
+											<h3>La version française du site n'est pas encore tout à fait prête!</h3>
 											<Button justIcon link className={classes.margin5}>
 												<FaGithub/>
 											</Button>
@@ -67,7 +67,7 @@ class FrPage extends React.Component {
 							</GridContainer>
 							<div className={classes.description}>
 								<h6>
-                  La version française sera bientôt complétée. En attendant, voici un résumé du site web traduit en français.
+                  La version française sera bientôt complétée. En attendant, voici un résumé du site web en français.
 								</h6>
 								<br /><br /><br />
 							</div>

@@ -4,9 +4,11 @@ import Tooltip from "@material-ui/core/Tooltip"
 import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import workStyle from "assets/jss/material-kit-react/views/landingPageSections/workStyle.jsx"
+// images
 import ac from "assets/img/tech/ac.svg"
 import ad from "assets/img/tech/ad.svg"
 import android from "assets/img/tech/android.svg"
+import apollo from "assets/img/tech/apollo.svg"
 import apple from "assets/img/tech/apple.svg"
 import aws from "assets/img/tech/aws.svg"
 import azure from "assets/img/tech/azure.svg"
@@ -71,6 +73,9 @@ class WorkSection extends React.Component {
 					</Tooltip>
 					<Tooltip title={"Android"} placement="bottom-center">
 						<img src={android} alt="..." width="5%" style={icon} />
+					</Tooltip>
+					<Tooltip title={"Apollo Client"} placement="bottom-center">
+						<img src={apollo} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"App Store"} placement="bottom-center">
 						<img src={apple} alt="..." width="5%" style={icon} />
