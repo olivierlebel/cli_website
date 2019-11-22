@@ -13,7 +13,6 @@ import apple from "assets/img/tech/apple.svg"
 import aws from "assets/img/tech/aws.svg"
 import azure from "assets/img/tech/azure.svg"
 import bb from "assets/img/tech/bb.svg"
-import bc from "assets/img/tech/bc.png"
 import ci from "assets/img/tech/ci.svg"
 import dart from "assets/img/tech/dart.svg"
 import docker from "assets/img/tech/docker.svg"
@@ -21,7 +20,6 @@ import esl from "assets/img/tech/esl.svg"
 import expo from "assets/img/tech/expo.png"
 import fb from "assets/img/tech/fb.svg"
 import flutter from "assets/img/tech/flutter.svg"
-import figma from "assets/img/tech/figma.svg"
 import gatsby from "assets/img/tech/gatsby.svg"
 import gh from "assets/img/tech/gh.svg"
 import go from "assets/img/tech/go.svg"
@@ -83,14 +81,8 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Amazon Web Services"} placement="bottom-center">
 						<img src={aws} alt="..." width="5%" style={icon} />
 					</Tooltip>
-					<Tooltip title={"Microsoft Azure"} placement="bottom-center">
-						<img src={azure} alt="..." width="5%" style={icon} />
-					</Tooltip>
 					<Tooltip title={"Bit Bucket"} placement="bottom-center">
 						<img src={bb} alt="..." width="5%" style={icon} />
-					</Tooltip>
-					<Tooltip title={"Brightcove"} placement="bottom-center">
-						<img src={bc} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Circle CI"} placement="bottom-center">
 						<img src={ci} alt="..." width="5%" style={icon} />
@@ -112,9 +104,6 @@ class WorkSection extends React.Component {
 					</Tooltip>
 					<Tooltip title={"Flutter"} placement="bottom-center">
 						<img src={flutter} alt="..." width="5%" style={icon} />
-					</Tooltip>
-					<Tooltip title={"Figma"} placement="bottom-center">
-						<img src={figma} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Gatsby"} placement="bottom-center">
 						<img src={gatsby} alt="..." width="5%" style={icon} />
@@ -161,6 +150,9 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Maven"} placement="bottom-center">
 						<img src={maven} alt="..." width="5%" style={icon} />
 					</Tooltip>
+					<Tooltip title={"Microsoft Azure"} placement="bottom-center">
+						<img src={azure} alt="..." width="5%" style={icon} />
+					</Tooltip>
 					<Tooltip title={"MongoDB"} placement="bottom-center">
 						<img src={mongo} alt="..." width="5%" style={icon} />
 					</Tooltip>
@@ -170,11 +162,11 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Python"} placement="bottom-center">
 						<img src={python} alt="..." width="5%" style={icon} />
 					</Tooltip>
-					<Tooltip title={"Redux"} placement="bottom-center">
-						<img src={redux} alt="..." width="5%" style={icon} />
-					</Tooltip>
 					<Tooltip title={"React"} placement="bottom-center">
 						<img src={rn} alt="..." width="5%" style={icon} />
+					</Tooltip>
+					<Tooltip title={"Redux"} placement="bottom-center">
+						<img src={redux} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Splunk"} placement="bottom-center">
 						<img src={splunk} alt="..." width="5%" style={icon} />

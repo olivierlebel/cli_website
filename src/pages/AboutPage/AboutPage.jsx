@@ -50,13 +50,13 @@ class AboutPage extends React.Component {
 										<div className={classes.name}>
 											<h3 className={classes.title}>Console Log Inc.</h3>
 											<h6>Software Development Enterprise</h6>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://github.com/Console-Log-Inc" target="_blank">
 												<FaGithub/>
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://linkedin.com/company/Console-Log-Inc" target="_blank">
 												<FaLinkedin/>
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://twitter.com/consoleloginc" target="_blank">
 												<FaTwitter/>
 											</Button>
 										</div>
@@ -127,14 +127,11 @@ class AboutPage extends React.Component {
 										<div className={classes.name}>
 											<h3 className={classes.title}>Olivier Lebel</h3>
 											<h6>Developer & Founder</h6>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://github.com/olivierlebel" target="_blank">
 												<FaGithub/>
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://linkedin.com/in/olivier-lebel" target="_blank">
 												<FaLinkedin/>
-											</Button>
-											<Button justIcon link className={classes.margin5}>
-												<FaTwitter/>
 											</Button>
 										</div>
 									</div>

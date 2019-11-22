@@ -46,13 +46,13 @@ class BlogPage extends React.Component {
 										<div className={classes.name}>
 											<h3 className={classes.title}>Blog</h3>
 											<h6>This section is not ready yet!</h6>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://github.com/Console-Log-Inc" target="_blank">
 												<FaGithub/>
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://linkedin.com/company/Console-Log-Inc" target="_blank">
 												<FaLinkedin/>
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://twitter.com/consoleloginc" target="_blank">
 												<FaTwitter/>
 											</Button>
 										</div>

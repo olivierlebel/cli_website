@@ -25,6 +25,110 @@ import tvan from "assets/img/tvan.jpg"
 import cyclone from "assets/img/cyclone.png"
 
 
+const TEXTS = {
+	bnc:
+		<div>
+			<p>
+				The National Bank of Canada is the sixth largest commercial bank in
+				Canada. It is headquartered in Montreal, and has branches in most
+				Canadian provinces and 2.4 million personal clients.[4] National
+				Bank is the largest bank in Quebec, and the second largest financial
+				institution in the province, after Desjardins credit union.
+			</p>
+			<strong>
+				<div>
+				Source: {" "}
+					<a
+						href="https://en.wikipedia.org/wiki/National_Bank_of_Canada"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					Wikipedia
+					</a>
+				</div>
+				<br />
+				Visit{" "}
+				<a
+					href="https://nbc.ca"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					NBC's website
+				</a>
+			</strong>
+		</div>,
+	
+	tvas:
+		<div>
+			<p>
+				TVA Sports is a Canadian French-language specialty channel owned by the
+				Groupe TVA, a publicly traded subsidiary of Quebecor Media. The channel
+				is a general-interest sports network, and the first major competitor to RDS,
+				the only other French-language sports channel in the country. TVA Sports
+				obtains much of its programming via sub-licensing and resource-sharing
+				agreements with the English-language network Sportsnet and its owner Rogers
+				Communications. As of the 2014-15 season, TVA Sports is the national
+				French-language broadcaster of the National Hockey League and Major League
+				Soccer in Canada (the latter including the league's expansion club, the Montreal
+				Impact), and also carries coverage of the Canadian Hockey League, Toronto Blue
+				Jays baseball, and other events.
+			</p>
+			<strong>
+				<div>
+					Source: {" "}
+					<a
+						href="https://en.wikipedia.org/wiki/TVA_Sports"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Wikipedia
+					</a>
+				</div>
+				<br />
+				Visit{" "}
+				<a
+					href="https://tvasports.ca"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					TVA Sports' website
+				</a>
+			</strong>
+		</div>,
+
+	tvan:
+		<div>
+			<p>
+				TVA Nouvelles is the news division of TVA, a French language television
+				network in Canada. Programs produced by the division include nightly local
+				and national newscasts branded as TVA Nouvelles, as well as the news magazine
+				program JE. The division also owns and operates the 24-hour news channel
+				Le Canal Nouvelles.
+			</p>
+			<strong>
+				<div>
+			Source: {" "}
+					<a
+						href="https://en.wikipedia.org/wiki/TVA_Nouvelles"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+					Wikipedia
+					</a>
+				</div>
+				<br />
+				Visit{" "}
+				<a
+					href="https://tvanouvelles.ca"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					TVA Nouvelles' website
+				</a>
+			</strong>
+		</div>,
+}
+
 function Transition(props) {
 	return <Slide direction="down" {...props} />
 }
@@ -34,11 +138,13 @@ class ProductsPage extends React.Component {
 		super(props)
 		this.state = {
 			classicModal: false,
+			text: "",
 		}
 	}
-	handleClickOpen(modal) {
+	handleClickOpen(modal, text) {
 		var x = []
 		x[modal] = true
+		this.state.text = TEXTS[text]
 		this.setState(x)
 	}
 	handleClose(modal) {
@@ -59,6 +165,47 @@ class ProductsPage extends React.Component {
 			classes.imgRounded,
 			classes.imgFluid
 		)
+
+		const CustomDialog = ({ text }) => (
+			<Dialog
+				classes={{
+					root: classes.center,
+					paper: classes.modal
+				}}
+				open={this.state.classicModal}
+				TransitionComponent={Transition}
+				keepMounted
+				onClose={() => this.handleClose("classicModal")}
+				aria-labelledby="classic-modal-slide-title"
+				aria-describedby="classic-modal-slide-description"
+			>
+				<DialogTitle
+					id="classic-modal-slide-title"
+					disableTypography
+					className={classes.modalHeader}
+				>
+					<h4 className={classes.modalTitle}><b>Did you know?</b></h4>
+				</DialogTitle>
+				<DialogContent
+					id="classic-modal-slide-description"
+					className={classes.modalBody}
+				>
+					<p>
+						{text}
+					</p>
+				</DialogContent>
+				<DialogActions className={classes.modalFooter}>
+					<Button
+						onClick={() => this.handleClose("classicModal")}
+						color="danger"
+						simple
+					>
+							Close
+					</Button>
+				</DialogActions>
+			</Dialog>
+		)
+
 		return (
 			<div>
 				<Header
@@ -85,13 +232,13 @@ class ProductsPage extends React.Component {
 										<div className={classes.name}>
 											<h3 className={classes.title}>Products</h3>
 											<h6>On top of working with our clients, we are constantly working on new products.</h6>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://github.com/Console-Log-Inc" target="_blank">
 												<FaGithub/>
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://linkedin.com/company/Console-Log-Inc" target="_blank">
 												<FaLinkedin/>
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button justIcon link className={classes.margin5} href="https://twitter.com/consoleloginc" target="_blank">
 												<FaTwitter/>
 											</Button>
 										</div>
@@ -103,6 +250,7 @@ class ProductsPage extends React.Component {
                   We are constantly building new stuff. We have worked on multiple apps for top enterprises.
                   Here they are. Stay tuned for more!
 								</p>
+								<br />
 								<Paper style={{ backgroundColor: "black", color: "white", padding: 25 }}>
 									<h2>
                     National Bank of Canada
@@ -126,58 +274,10 @@ class ProductsPage extends React.Component {
                     The National Bank app meets your personal banking needs, as well as the specific requirements of your business.
                     Manage your accounts separately - all from one app!
 									</p>
-									<Button color="white" round onClick={() => this.handleClickOpen("classicModal")} onClick={() => this.handleClickOpen("classicModal")}>
+									<Button color="white" round onClick={() => this.handleClickOpen("classicModal", "bnc")}>
 										<Info className={classes.icons} />
-                    Did you know?
+										Did you know?
 									</Button>
-									<Dialog
-										classes={{
-											root: classes.center,
-											paper: classes.modal
-										}}
-										open={this.state.classicModal}
-										TransitionComponent={Transition}
-										keepMounted
-										onClose={() => this.handleClose("classicModal")}
-										aria-labelledby="classic-modal-slide-title"
-										aria-describedby="classic-modal-slide-description"
-									>
-										<DialogTitle
-											id="classic-modal-slide-title"
-											disableTypography
-											className={classes.modalHeader}
-										>
-											<h4 className={classes.modalTitle}>Did you know?</h4>
-										</DialogTitle>
-										<DialogContent
-											id="classic-modal-slide-description"
-											className={classes.modalBody}
-										>
-											<p>
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts. Separated they live in Bookmarksgrove right at
-                        the coast of the Semantics, a large language ocean. A
-                        small river named Duden flows by their place and
-                        supplies it with the necessary regelialia. It is a
-                        paradisematic country, in which roasted parts of
-                        sentences fly into your mouth. Even the all-powerful
-                        Pointing has no control about the blind texts it is an
-                        almost unorthographic life One day however a small line
-                        of blind text by the name of Lorem Ipsum decided to
-                        leave for the far World of Grammar.
-											</p>
-										</DialogContent>
-										<DialogActions className={classes.modalFooter}>
-											<Button
-												onClick={() => this.handleClose("classicModal")}
-												color="danger"
-												simple
-											>
-                        Close
-											</Button>
-										</DialogActions>
-									</Dialog>
 								</Paper>
 								<br /><br />
 								<Paper style={{ padding: 25 }}>
@@ -202,7 +302,7 @@ class ProductsPage extends React.Component {
                     You are not at home to watch the game? No problem! You can now watch NHL games and
                     the Montreal Canadiens plus other content directly on your mobile or tablet.
 									</p>
-									<Button color="primary" round onClick={() => this.handleClickOpen("classicModal")}>
+									<Button color="primary" round onClick={() => this.handleClickOpen("classicModal", "tvas")}>
 										<Info className={classes.icons} />
                     Did you know?
 									</Button>
@@ -233,7 +333,7 @@ class ProductsPage extends React.Component {
                     Whether you are in front of your TV, on your computer or on your mobile device,
                     you can now follow the latest live news as if you were there.
 									</p>
-									<Button color="white" round onClick={() => this.handleClickOpen("classicModal")}>
+									<Button color="white" round onClick={() => this.handleClickOpen("classicModal", "tvan")}>
 										<Info className={classes.icons} />
                     Did you know?
 									</Button>
@@ -279,6 +379,7 @@ class ProductsPage extends React.Component {
 						</div>
 					</div>
 				</div>
+				<CustomDialog text={this.state.text} />
 				<Footer />
 			</div>
 		)

@@ -85,6 +85,7 @@ class ProductSection extends React.Component {
 											<FaAndroid/>
 										</Button>
 									</CardFooter>
+									<br /><br />
 								</Card>
 								<Card plain>
 									<GridItem xs={8} sm={8} md={4} className={classes.itemGrid}>
@@ -124,6 +125,7 @@ class ProductSection extends React.Component {
 											<FaAndroid/>
 										</Button>
 									</CardFooter>
+									<br /><br />
 								</Card>
 								<Card plain>
 									<GridItem xs={8} sm={8} md={4} className={classes.itemGrid}>
@@ -162,6 +164,7 @@ class ProductSection extends React.Component {
 											<FaAndroid/>
 										</Button>
 									</CardFooter>
+									<br /><br />
 								</Card>
 								<Card plain>
 									<GridItem xs={8} sm={8} md={4} className={classes.itemGrid}>
@@ -193,6 +196,7 @@ class ProductSection extends React.Component {
 											<FaAndroid/>
 										</Button>
 									</CardFooter>
+									<br /><br />
 								</Card>
 								<Card plain>
 									<GridItem xs={8} sm={8} md={4} className={classes.itemGrid}>
@@ -214,9 +218,12 @@ class ProductSection extends React.Component {
 											color="transparent"
 											className={classes.margin5}
 										>
-											<FaGithub/>
+											<a href="https://github.com/Console-Log-Inc" target="_blank" style={{ color: "black" }}>
+												<FaGithub/>
+											</a>
 										</Button>
 									</CardFooter>
+									<br /><br />
 								</Card>
 							</Carousel>
 						</Card>

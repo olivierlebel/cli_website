@@ -60,7 +60,7 @@ function HeaderLinks({ ...props }) {
 				>
 					<Button
 						color="transparent"
-						href="https://www.github.com/olivierlebel"
+						href="https://www.github.com/console-log-inc"
 						target="_blank"
 						className={classes.navLink}
 					>
