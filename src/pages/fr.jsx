@@ -71,136 +71,136 @@ class FrPage extends React.Component {
 								</h6>
 								<br /><br /><br />
 							</div>
-						</div>
-						<div className={classes.description}>
-							<p>
+							<div className={classes.description}>
+								<p>
                   Chez CLI, notre focus est le développement d'application web et mobile pour entreprises de toutes sortes.
                   De la technologie dernier cri à la maintenance de logiciel legacy, CLI est là pour aider votre entreprise à briller.
-							</p>
-							<p>
+								</p>
+								<p>
                   Nous pouvons aider via <i>l'amélioration d'une application en difficulté</i>, <i>la contribution à un projet existant</i> ou <i>le développement d'applications clé en main</i>.
-							</p>
-							<br />
-							<h2>
+								</p>
+								<br />
+								<h2>
                   Développement Mobile
-							</h2>
-							<h3>
-								<div>
+								</h2>
+								<h3>
+									<div>
                     React-Native
-									<a
-										href="https://facebook.github.io/react-native/"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ margin: 5 }}
-									>
-										<img src={rn} alt="..." style={{ height: 36, width: 36 }}/>
-									</a>
-								</div>
-							</h3>
-							<p>
+										<a
+											href="https://facebook.github.io/react-native/"
+											target="_blank"
+											rel="noopener noreferrer"
+											style={{ margin: 5 }}
+										>
+											<img src={rn} alt="..." style={{ height: 36, width: 36 }}/>
+										</a>
+									</div>
+								</h3>
+								<p>
                   L'apprendre une fois, l'écrire partout. C'est la devise de Facebook vis-à-vis son projet React-Native.
                   La création d'application mobile native pour Android et iOS en utilisant React.
                   React-Native met en oeuvre le meilleur du développement natif avec React, la meilleure librairie JavaScript pour construire des interfaces utilisateurs.
-							</p>
-							<p>
+								</p>
+								<p>
                   Il s'agit de notre plus forte spécialité. Vous seriez stupéfait de voir à quel point nos applications sont fluides, rapides et faciles à utiliser.
                   Une seule instance de code à maintenir pour toutes vos applications, quelles soient consommées sur iPhone, iPad, téléphone Android and tablettes Android
                   ce qui signifie une expérience utilisateur unifiée pour vos clients et un coût plus bas en maintenance.
-							</p>
-							<h3>
-								<div>
+								</p>
+								<h3>
+									<div>
                     Développement iOS
-									<a
-										href="https://developer.apple.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ margin: 5, color: "black" }}
-									>
-										<FaApple />
-									</a>
-								</div>
-							</h3>
-							<p>
+										<a
+											href="https://developer.apple.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+											style={{ margin: 5, color: "black" }}
+										>
+											<FaApple />
+										</a>
+									</div>
+								</h3>
+								<p>
                   Nous avons travaillé avec succès sur plusieurs applications en Swift et nous serions
                   heureux de vous assister dans la construction d'une application iOS native.
-							</p>
-							<h3>
-								<div>
+								</p>
+								<h3>
+									<div>
                     Développement Android
-									<a
-										href="https://developer.android.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ margin: 5, color: "black" }}
-									>
-										<FaAndroid />
-									</a>
-								</div>
-							</h3>
-							<p>
+										<a
+											href="https://developer.android.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+											style={{ margin: 5, color: "black" }}
+										>
+											<FaAndroid />
+										</a>
+									</div>
+								</h3>
+								<p>
                   Nous avons travaillé avec succès sur plusieurs applications en Java et Kotlin et nous serions
                   heureux de vous assister dans la construction d'une application iOS native.
-							</p>
-							<h3>
-								<div>
+								</p>
+								<h3>
+									<div>
                     Flutter
-									<a
-										href="https://flutter.dev/"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ margin: 5 }}
-									>
-										<img src={flutter} alt="..." style={{ height: 24, width: 24 }}/>
-									</a>
-								</div>
-							</h3>
-							<p>
+										<a
+											href="https://flutter.dev/"
+											target="_blank"
+											rel="noopener noreferrer"
+											style={{ margin: 5 }}
+										>
+											<img src={flutter} alt="..." style={{ height: 24, width: 24 }}/>
+										</a>
+									</div>
+								</h3>
+								<p>
                   En tant que fan de React-Native et du développement mobile, nous nous devons d'être excité par Flutter.
                   Nous n'avons pas encore beaucoup d'expérience de développement encore, mais c'est quelque chose que nous travaillons actuellement.
-							</p>
-							<br />
-							<h2>
+								</p>
+								<br />
+								<h2>
                   Développement de Site Web
-							</h2>
-							<h3>
-								<div>
+								</h2>
+								<h3>
+									<div>
                     React
-									<a
-										href="https://reactjs.org/"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ margin: 5 }}
-									>
-										<img src={rn} alt="..." style={{ height: 36, width: 36 }}/>
-									</a>
-								</div>
-							</h3>
-							<p>
+										<a
+											href="https://reactjs.org/"
+											target="_blank"
+											rel="noopener noreferrer"
+											style={{ margin: 5 }}
+										>
+											<img src={rn} alt="..." style={{ height: 36, width: 36 }}/>
+										</a>
+									</div>
+								</h3>
+								<p>
                   Lancé en 2013, cette libraire JavaScript est rapidement devenue l'une des plus populaires.
                   Toujours maintenu par Facebook avec l'aide de la communauté des développeurs.
                   C'est utilisé par les meilleures compagnies technologiques telles que Apple, PayPal, Netflix
                   et plus de 32 milles sites web dans le monde.
-							</p>
-							<p>
+								</p>
+								<p>
                   Chez CLI, nous avons plusieurs succès de développement utilisant React.
                   C'est d'ailleurs le cas pour le site web que vous consulté actuellement.
                   C'est d'ailleurs construit utilisant Gatsby, un outil puissant permettant
                   de générer des sites web statiques développés en React.
-							</p>
-							<br />
-							<h2>
+								</p>
+								<br />
+								<h2>
                   Services de consultation
-							</h2>
-							<p>
+								</h2>
+								<p>
                   Chez CLI, nous pouvons aider votre entreprise en travaillant main dans la main avec vous et vos employés.
                   L'aide que nous pouvons apporter peut autant se situer au niveau du mantorat auprès de vos employés sur certains sujets
                   ou encore directement travaillé sur vos produits, peu importe qu'il s'agisse d'un projet legacy ou tout neuf.
-							</p>
-							<p>
+								</p>
+								<p>
                   Nous offrons également nos conseils à nos clients sous diverses formes telles que des rapprots d'analyses et de présentations.
                   Nous pouvons vous aider à rencontrer vos objectifs, résoudre des problèmes ou encore vous aider à la gestion de vos produits logiciels.
-							</p>
-							<br /><br /><br />
+								</p>
+								<br /><br /><br />
+							</div>
 						</div>
 					</div>
 				</div>
