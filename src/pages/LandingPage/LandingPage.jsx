@@ -1,7 +1,6 @@
 import React from "react"
 import classNames from "classnames"
 import withStyles from "@material-ui/core/styles/withStyles"
-import Hidden from "@material-ui/core/Hidden"
 import Header from "components/Header/Header.jsx"
 import Footer from "components/Footer/Footer.jsx"
 import GridContainer from "components/Grid/GridContainer.jsx"
@@ -58,9 +57,7 @@ class LandingPage extends React.Component {
 					<div className={classes.container}>
 						<ServiceSection />
 						<ProductSection />
-						<Hidden mdDown implementation="css">
-							<WorkSection />
-						</Hidden>
+						<WorkSection />
 						<ContactSection />
 					</div>
 				</div>
