@@ -11,7 +11,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
@@ -29,6 +30,7 @@
     "gatsby-plugin-react-helmet": "^3.0.8",
     "gatsby-plugin-resolve-src": "^2.0.0",
     "gatsby-plugin-sass": "^2.0.10",
+    "gh-pages": "^2.1.1",
     "history": "^4.7.2",
     "node-sass": "^4.11.0",
     "nouislider": "^13.1.1",
