@@ -28,30 +28,30 @@ class ContactSection extends React.Component {
 				<br />
 				<GridContainer justify="center">
 					<GridItem>
-						<Button color="primary" round style={{ marginBottom: 20 }}>
-							<PhoneInTalk className={classes.icons} />
-							<a
-								href="https://calendly.com/consoleloginc"
-								target="_blank"
-								style={{ color: "white" }}
-							>
+						<a
+							href="https://calendly.com/consoleloginc"
+							target="_blank"
+							style={{ color: "white" }}
+						>
+							<Button color="primary" round style={{ marginBottom: 20 }}>
+								<PhoneInTalk className={classes.icons} />
                 Schedule a call
-							</a>
-						</Button>
+							</Button>
+						</a>
 					</GridItem>
 				</GridContainer>
 				<GridContainer justify="center">
 					<GridItem>
-						<Button color="primary" round style={{ marginBottom: 20 }}>
-							<Email className={classes.icons} />
-							<a
-								href="mailto:info@consoleloginc.com"
-								target="_blank"
-								style={{ color: "white" }}
-							>
+						<a
+							href="mailto:info@consoleloginc.com"
+							target="_blank"
+							style={{ color: "white" }}
+						>
+							<Button color="primary" round style={{ marginBottom: 20 }}>
+								<Email className={classes.icons} />
                 Send us an email
-							</a>
-						</Button>
+							</Button>
+						</a>
 					</GridItem>
 				</GridContainer>
 				<br />
