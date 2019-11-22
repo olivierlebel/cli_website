@@ -34,7 +34,7 @@ class LandingPage extends React.Component {
 					}}
 					{...rest}
 				/>
-				<Parallax filter image={require("assets/img/bg.gif")}>
+				<Parallax filter style={{ backgroundColor: "black" }}>
 					<div className={classes.container}>
 						<GridContainer>
 							<GridItem xs={12} sm={12} md={6}>
