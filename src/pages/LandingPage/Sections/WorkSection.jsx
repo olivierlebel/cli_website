@@ -31,14 +31,17 @@ import jenkins from "assets/img/tech/jenkins.png"
 import jest from "assets/img/tech/jest.svg"
 import jira from "assets/img/tech/jira.svg"
 import js from "assets/img/tech/js.svg"
+import json from "assets/img/tech/json.svg"
 import kafka from "assets/img/tech/kafka.svg"
 import kotlin from "assets/img/tech/kotlin.svg"
 import kibana from "assets/img/tech/kibana.svg"
 import maven from "assets/img/tech/maven.svg"
 import mongo from "assets/img/tech/mongo.svg"
+import node from "assets/img/tech/node.svg"
 import os from "assets/img/tech/os.svg"
 import python from "assets/img/tech/python.svg"
 import redux from "assets/img/tech/redux.svg"
+import rest from "assets/img/tech/rest.svg"
 import rn from "assets/img/tech/rn.svg"
 import splunk from "assets/img/tech/splunk.svg"
 import spring from "assets/img/tech/spring.svg"
@@ -126,6 +129,9 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Java"} placement="bottom-center">
 						<img src={java} alt="..." width="5%" style={icon} />
 					</Tooltip>
+					<Tooltip title={"JavaScript"} placement="bottom-center">
+						<img src={js} alt="..." width="5%" style={icon} />
+					</Tooltip>
 					<Tooltip title={"Jenkins"} placement="bottom-center">
 						<img src={jenkins} alt="..." width="5%" style={icon} />
 					</Tooltip>
@@ -135,8 +141,8 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Jira"} placement="bottom-center">
 						<img src={jira} alt="..." width="5%" style={icon} />
 					</Tooltip>
-					<Tooltip title={"JavaScript"} placement="bottom-center">
-						<img src={js} alt="..." width="5%" style={icon} />
+					<Tooltip title={"JSON"} placement="bottom-center">
+						<img src={json} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Kotlin"} placement="bottom-center">
 						<img src={kotlin} alt="..." width="5%" style={icon} />
@@ -156,6 +162,9 @@ class WorkSection extends React.Component {
 					<Tooltip title={"MongoDB"} placement="bottom-center">
 						<img src={mongo} alt="..." width="5%" style={icon} />
 					</Tooltip>
+					<Tooltip title={"NodeJS"} placement="bottom-center">
+						<img src={node} alt="..." width="5%" style={icon} />
+					</Tooltip>
 					<Tooltip title={"Openshift"} placement="bottom-center">
 						<img src={os} alt="..." width="5%" style={icon} />
 					</Tooltip>
@@ -167,6 +176,9 @@ class WorkSection extends React.Component {
 					</Tooltip>
 					<Tooltip title={"Redux"} placement="bottom-center">
 						<img src={redux} alt="..." width="5%" style={icon} />
+					</Tooltip>
+					<Tooltip title={"Rest API"} placement="bottom-center">
+						<img src={rest} alt="..." width="5%" style={icon} />
 					</Tooltip>
 					<Tooltip title={"Splunk"} placement="bottom-center">
 						<img src={splunk} alt="..." width="5%" style={icon} />
