@@ -80,9 +80,21 @@ class AboutPage extends React.Component {
 								<br />
 								<h2>Contact</h2>
 								<h6>Email Adress</h6>
-								<u>info@consoleloginc.com</u>
+								<a
+									href="mailto:info@consoleloginc.com"
+									target="_blank"
+									style={{ color: "bleck" }}
+								>
+									info@consoleloginc.com
+								</a>
 								<h6>Phone Number</h6>
-								<u>1+ (514) 518-4870</u>
+								<a
+									href="tel:+15145184870"
+									target="_blank"
+									style={{ color: "bleck" }}
+								>
+									1+ (514) 518-4870
+								</a>
 								<h6>Location</h6>
                 Blainville, Québec, Canada.
 								<br /><br />
@@ -155,6 +167,7 @@ class AboutPage extends React.Component {
 								<p>
                   Over the years, I have worked with:
 								</p>
+								<br />
 								<h6>Languages</h6>
 								<p>
 									<li>JavaScript</li>
@@ -162,6 +175,7 @@ class AboutPage extends React.Component {
 									<li>Swift</li>
 									<li>Dart</li>
 								</p>
+								<br />
 								<h6>Frameworks</h6>
 								<p>
 									<li>React-Native</li>
@@ -170,6 +184,7 @@ class AboutPage extends React.Component {
 									<li>Spring Boot</li>
 									<li>Flutter</li>
 								</p>
+								<br />
 								<h6>Platforms & Tools</h6>
 								<p>
 									<li>Firebase</li>

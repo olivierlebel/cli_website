@@ -73,11 +73,11 @@ class FrPage extends React.Component {
 							</div>
 							<div className={classes.description}>
 								<p>
-                  Chez CLI, notre focus est le développement d'application web et mobile pour entreprises de toutes sortes.
+                  Chez CLI, notre raison d'être est le développement d'application web et mobile pour entreprises de toutes sortes.
                   De la technologie dernier cri à la maintenance de logiciel legacy, CLI est là pour aider votre entreprise à briller.
 								</p>
 								<p>
-                  Nous pouvons aider via <i>l'amélioration d'une application en difficulté</i>, <i>la contribution à un projet existant</i> ou <i>le développement d'applications clé en main</i>.
+                  Nous pouvons vous aider via <i>l'amélioration d'une application en difficulté</i>, <i>la contribution à un projet existant</i> ou <i>le développement d'applications clé en main</i>.
 								</p>
 								<br />
 								<h2>
@@ -99,11 +99,13 @@ class FrPage extends React.Component {
 								<p>
                   L'apprendre une fois, l'écrire partout. C'est la devise de Facebook vis-à-vis son projet React-Native.
                   La création d'application mobile native pour Android et iOS en utilisant React.
-                  React-Native met en oeuvre le meilleur du développement natif avec React, la meilleure librairie JavaScript pour construire des interfaces utilisateurs.
+                  React-Native met en oeuvre le meilleur du développement natif avec React, la meilleure librairie
+									JavaScript pour construire des interfaces utilisateurs.
 								</p>
 								<p>
-                  Il s'agit de notre plus forte spécialité. Vous seriez stupéfait de voir à quel point nos applications sont fluides, rapides et faciles à utiliser.
-                  Une seule instance de code à maintenir pour toutes vos applications, quelles soient consommées sur iPhone, iPad, téléphone Android and tablettes Android
+                  Il s'agit de notre plus forte spécialité. Vous seriez stupéfait de voir à quel point nos applications
+									sont fluides, rapides et faciles à utiliser. Une seule instance de code à maintenir pour toutes vos
+									applications, quelles soient consommées sur iPhone, iPad, téléphone Android and tablettes Android
                   ce qui signifie une expérience utilisateur unifiée pour vos clients et un coût plus bas en maintenance.
 								</p>
 								<h3>
@@ -120,7 +122,7 @@ class FrPage extends React.Component {
 									</div>
 								</h3>
 								<p>
-                  Nous avons travaillé avec succès sur plusieurs applications en Swift et nous serions
+                  Nous avons travaillé avec succès sur quelques applications en Swift et nous serions
                   heureux de vous assister dans la construction d'une application iOS native.
 								</p>
 								<h3>
@@ -137,7 +139,7 @@ class FrPage extends React.Component {
 									</div>
 								</h3>
 								<p>
-                  Nous avons travaillé avec succès sur plusieurs applications en Java et Kotlin et nous serions
+                  Nous avons travaillé avec succès sur quelques applications en Java et Kotlin et nous serions
                   heureux de vous assister dans la construction d'une application iOS native.
 								</p>
 								<h3>
@@ -154,8 +156,9 @@ class FrPage extends React.Component {
 									</div>
 								</h3>
 								<p>
-                  En tant que fan de React-Native et du développement mobile, nous nous devons d'être excité par Flutter.
-                  Nous n'avons pas encore beaucoup d'expérience de développement encore, mais c'est quelque chose que nous travaillons actuellement.
+                  En tant que fan de React-Native et du développement mobile, nous nous
+									devons d'être excité par Flutter. Nous n'avons pas encore beaucoup d'expérience de développement
+									encore, mais c'est quelque chose que nous travaillons actuellement.
 								</p>
 								<br />
 								<h2>
@@ -176,14 +179,14 @@ class FrPage extends React.Component {
 								</h3>
 								<p>
                   Lancé en 2013, cette libraire JavaScript est rapidement devenue l'une des plus populaires.
-                  Toujours maintenu par Facebook avec l'aide de la communauté des développeurs.
-                  C'est utilisé par les meilleures compagnies technologiques telles que Apple, PayPal, Netflix
-                  et plus de 32 milles sites web dans le monde.
+                  Toujours maintenue par Facebook avec l'aide de la communauté des développeurs, elle est
+									utilisée par les meilleures compagnies technologiques telles que Apple, PayPal, Netflix
+                  et plus de 32 000 sites web dans le monde.
 								</p>
 								<p>
-                  Chez CLI, nous avons plusieurs succès de développement utilisant React.
-                  C'est d'ailleurs le cas pour le site web que vous consulté actuellement.
-                  C'est d'ailleurs construit utilisant Gatsby, un outil puissant permettant
+                  Chez CLI, nous avons connaissons très bien le développement utilisant React.
+                  C'est d'ailleurs le cas pour le site web que vous consultez actuellement.
+                  Il est d'ailleurs construit utilisant Gatsby, un outil puissant permettant
                   de générer des sites web statiques développés en React.
 								</p>
 								<br />
@@ -192,11 +195,11 @@ class FrPage extends React.Component {
 								</h2>
 								<p>
                   Chez CLI, nous pouvons aider votre entreprise en travaillant main dans la main avec vous et vos employés.
-                  L'aide que nous pouvons apporter peut autant se situer au niveau du mantorat auprès de vos employés sur certains sujets
-                  ou encore directement travaillé sur vos produits, peu importe qu'il s'agisse d'un projet legacy ou tout neuf.
+                  L'aide que nous pouvons apporter peut autant se situer au niveau du mentorat auprès de vos employés sur certains sujets
+                  ou encore en travaillant directement sur vos produits, peu importe qu'il s'agisse d'un projet legacy ou d'un projet tout neuf.
 								</p>
 								<p>
-                  Nous offrons également nos conseils à nos clients sous diverses formes telles que des rapprots d'analyses et de présentations.
+                  Nous offrons également nos conseils à nos clients sous diverses formes telles que des rapports d'analyses et de présentations.
                   Nous pouvons vous aider à rencontrer vos objectifs, résoudre des problèmes ou encore vous aider à la gestion de vos produits logiciels.
 								</p>
 								<br /><br /><br />
@@ -243,38 +246,50 @@ class FrPage extends React.Component {
 								<br />
 								<h2>Contact</h2>
 								<h6>Adresse courriel</h6>
-								<u>info@consoleloginc.com</u>
+								<a
+									href="mailto:info@consoleloginc.com"
+									target="_blank"
+									style={{ color: "bleck" }}
+								>
+									info@consoleloginc.com
+								</a>
 								<h6>Numéro de téléphone</h6>
-								<u>1+ (514) 518-4870</u>
+								<a
+									href="tel:+15145184870"
+									target="_blank"
+									style={{ color: "bleck" }}
+								>
+									1+ (514) 518-4870
+								</a>
 								<h6>Localisation</h6>
                 Blainville, Québec, Canada.
 								<br /><br />
 							</div>
 							<GridContainer justify="center">
-								<Button color="primary" round style={{ marginBottom: 20 }}>
-									<PhoneInTalk className={classes.icons} />
-									<a
-										href="https://calendly.com/consoleloginc"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ color: "white" }}
-									>
+								<a
+									href="https://calendly.com/consoleloginc"
+									target="_blank"
+									rel="noopener noreferrer"
+									style={{ color: "white" }}
+								>
+									<Button color="primary" round style={{ marginBottom: 20 }}>
+										<PhoneInTalk className={classes.icons} />
                     Planifier un appel
-									</a>
-								</Button>
+									</Button>
+								</a>
 							</GridContainer>
 							<GridContainer justify="center">
-								<Button color="primary" round style={{ marginBottom: 20 }}>
-									<Email className={classes.icons} />
-									<a
-										href="mailto:info@consoleloginc.com"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ color: "white" }}
-									>
+								<a
+									href="mailto:info@consoleloginc.com"
+									target="_blank"
+									rel="noopener noreferrer"
+									style={{ color: "white" }}
+								>
+									<Button color="primary" round style={{ marginBottom: 20 }}>
+										<Email className={classes.icons} />
                     Écrivez-nous
-									</a>
-								</Button>
+									</Button>
+								</a>
 							</GridContainer>
 						</div>
 					</div>
@@ -313,7 +328,7 @@ class FrPage extends React.Component {
 								<p>
                   Je suis une personne orientée résultat qui adore travailler avec des gens passionnés.
                   Je crois fermement que les gens peuvent développer leurs habiletés et leurs forces en
-                  constamment repoussant leurs limites au quotidien.
+                  repoussant constamment leurs limites au quotidien.
 								</p>
 								<p>
                   Je porte actuellement mon intention dans le développement d'applications mobiles sur iOS et Android.
@@ -324,6 +339,7 @@ class FrPage extends React.Component {
 								<p>
                   Au fil des années, j'ai travaillé avec:
 								</p>
+								<br />
 								<h6>Languages</h6>
 								<p>
 									<li>JavaScript</li>
@@ -331,6 +347,7 @@ class FrPage extends React.Component {
 									<li>Swift</li>
 									<li>Dart</li>
 								</p>
+								<br />
 								<h6>Frameworks</h6>
 								<p>
 									<li>React-Native</li>
@@ -339,6 +356,7 @@ class FrPage extends React.Component {
 									<li>Spring Boot</li>
 									<li>Flutter</li>
 								</p>
+								<br />
 								<h6>Plateformes et Outils</h6>
 								<p>
 									<li>Firebase</li>
