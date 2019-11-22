@@ -13,44 +13,44 @@ function HeaderLinks({ ...props }) {
 	return (
 		<List className={classes.list}>
 			<ListItem className={classes.listItem}>
-				<Button
-					color="transparent"
-					className={classes.navLink}
-				>
-					<Link to="/services/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+				<Link to="/services/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+					<Button
+						color="transparent"
+						className={classes.navLink}
+					>
             services
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 			<ListItem className={classes.listItem}>
-				<Button
-					color="transparent"
-					className={classes.navLink}
-				>
-					<Link to="/products/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+				<Link to="/products/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+					<Button
+						color="transparent"
+						className={classes.navLink}
+					>
             products
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 			<ListItem className={classes.listItem}>
-				<Button
-					color="transparent"
-					className={classes.navLink}
-				>
-					<Link to="/blog/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+				<Link to="/blog/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+					<Button
+						color="transparent"
+						className={classes.navLink}
+					>
             blog
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 			<ListItem className={classes.listItem}>
-				<Button
-					color="transparent"
-					className={classes.navLink}
-				>
-					<Link to="/about/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+				<Link to="/about/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+					<Button
+						color="transparent"
+						className={classes.navLink}
+					>
             about
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 			<ListItem className={classes.listItem}>
 				<Tooltip
@@ -101,14 +101,14 @@ function HeaderLinks({ ...props }) {
 				</Tooltip>
 			</ListItem>
 			<ListItem className={classes.listItem}>
-				<Button
-					color="transparent"
-					className={classes.navLink}
-				>
-					<Link to="/fr/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+				<Link to="/fr/" style={{ color: "white" }} activeStyle={{ textDecorationLine: "underline" }}>
+					<Button
+						color="transparent"
+						className={classes.navLink}
+					>
             fr
-					</Link>
-				</Button>
+					</Button>
+				</Link>
 			</ListItem>
 		</List>
 	)
