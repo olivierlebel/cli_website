@@ -53,7 +53,7 @@ import zeplin from "assets/img/tech/zeplin.svg"
 class WorkSection extends React.Component {
 	render() {
 		const { classes } = this.props
-		const icon = { margin: 20 }
+		const icon = { margin: 20, width: "5%", height: "5%" }
 		return (
 			<div className={classes.description}>
 				<GridContainer>
@@ -67,133 +67,133 @@ class WorkSection extends React.Component {
 				</GridContainer>
 				<GridContainer justify="center">
 					<Tooltip title={"App Center"} placement="bottom-center">
-						<img src={ac} alt="..." width="5%" style={icon} />
+						<img src={ac} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"App Dynamics"} placement="bottom-center">
-						<img src={ad} alt="..." width="5%" style={icon} />
+						<img src={ad} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Android"} placement="bottom-center">
-						<img src={android} alt="..." width="5%" style={icon} />
+						<img src={android} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Apollo Client"} placement="bottom-center">
-						<img src={apollo} alt="..." width="5%" style={icon} />
+						<img src={apollo} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"App Store"} placement="bottom-center">
-						<img src={apple} alt="..." width="5%" style={icon} />
+						<img src={apple} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Amazon Web Services"} placement="bottom-center">
-						<img src={aws} alt="..." width="5%" style={icon} />
+						<img src={aws} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Bit Bucket"} placement="bottom-center">
-						<img src={bb} alt="..." width="5%" style={icon} />
+						<img src={bb} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Circle CI"} placement="bottom-center">
-						<img src={ci} alt="..." width="5%" style={icon} />
+						<img src={ci} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Dart"} placement="bottom-center">
-						<img src={dart} alt="..." width="5%" style={icon} />
+						<img src={dart} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Docker"} placement="bottom-center">
-						<img src={docker} alt="..." width="5%" style={icon} />
+						<img src={docker} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"ES Lint"} placement="bottom-center">
-						<img src={esl} alt="..." width="5%" style={icon} />
+						<img src={esl} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Expo"} placement="bottom-center">
-						<img src={expo} alt="..." width="5%" style={icon} />
+						<img src={expo} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Firebase"} placement="bottom-center">
-						<img src={fb} alt="..." width="5%" style={icon} />
+						<img src={fb} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Flutter"} placement="bottom-center">
-						<img src={flutter} alt="..." width="5%" style={icon} />
+						<img src={flutter} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Gatsby"} placement="bottom-center">
-						<img src={gatsby} alt="..." width="5%" style={icon} />
+						<img src={gatsby} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Git Hub"} placement="bottom-center">
-						<img src={gh} alt="..." width="5%" style={icon} />
+						<img src={gh} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Golang"} placement="bottom-center">
-						<img src={go} alt="..." width="5%" style={icon} />
+						<img src={go} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Google Play"} placement="bottom-center">
-						<img src={gp} alt="..." width="5%" style={icon} />
+						<img src={gp} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Graph QL"} placement="bottom-center">
-						<img src={gql} alt="..." width="5%" style={icon} />
+						<img src={gql} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"iOS"} placement="bottom-center">
-						<img src={ios} alt="..." width="5%" style={icon} />
+						<img src={ios} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Java"} placement="bottom-center">
-						<img src={java} alt="..." width="5%" style={icon} />
+						<img src={java} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"JavaScript"} placement="bottom-center">
-						<img src={js} alt="..." width="5%" style={icon} />
+						<img src={js} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Jenkins"} placement="bottom-center">
-						<img src={jenkins} alt="..." width="5%" style={icon} />
+						<img src={jenkins} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Jest"} placement="bottom-center">
-						<img src={jest} alt="..." width="5%" style={icon} />
+						<img src={jest} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Jira"} placement="bottom-center">
-						<img src={jira} alt="..." width="5%" style={icon} />
+						<img src={jira} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"JSON"} placement="bottom-center">
-						<img src={json} alt="..." width="5%" style={icon} />
+						<img src={json} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Kotlin"} placement="bottom-center">
-						<img src={kotlin} alt="..." width="5%" style={icon} />
+						<img src={kotlin} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Kafka"} placement="bottom-center">
-						<img src={kafka} alt="..." width="5%" style={icon} />
+						<img src={kafka} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Kibana"} placement="bottom-center">
-						<img src={kibana} alt="..." width="5%" style={icon} />
+						<img src={kibana} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Maven"} placement="bottom-center">
-						<img src={maven} alt="..." width="5%" style={icon} />
+						<img src={maven} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Microsoft Azure"} placement="bottom-center">
-						<img src={azure} alt="..." width="5%" style={icon} />
+						<img src={azure} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"MongoDB"} placement="bottom-center">
-						<img src={mongo} alt="..." width="5%" style={icon} />
+						<img src={mongo} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"NodeJS"} placement="bottom-center">
-						<img src={node} alt="..." width="5%" style={icon} />
+						<img src={node} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Openshift"} placement="bottom-center">
-						<img src={os} alt="..." width="5%" style={icon} />
+						<img src={os} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Python"} placement="bottom-center">
-						<img src={python} alt="..." width="5%" style={icon} />
+						<img src={python} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"React"} placement="bottom-center">
-						<img src={rn} alt="..." width="5%" style={icon} />
+						<img src={rn} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Redux"} placement="bottom-center">
-						<img src={redux} alt="..." width="5%" style={icon} />
+						<img src={redux} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Rest API"} placement="bottom-center">
-						<img src={rest} alt="..." width="5%" style={icon} />
+						<img src={rest} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Splunk"} placement="bottom-center">
-						<img src={splunk} alt="..." width="5%" style={icon} />
+						<img src={splunk} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Spring"} placement="bottom-center">
-						<img src={spring} alt="..." width="5%" style={icon} />
+						<img src={spring} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Swift"} placement="bottom-center">
-						<img src={swift} alt="..." width="5%" style={icon} />
+						<img src={swift} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"TypeScript"} placement="bottom-center">
-						<img src={ts} alt="..." width="5%" style={icon} />
+						<img src={ts} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Zeplin"} placement="bottom-center">
-						<img src={zeplin} alt="..." width="5%" style={icon} />
+						<img src={zeplin} alt="..." style={icon} />
 					</Tooltip>
 				</GridContainer>
 				<br /><br /><br /><br /><br />
