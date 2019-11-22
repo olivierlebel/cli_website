@@ -12,7 +12,7 @@ import Parallax from "components/Parallax/Parallax.jsx"
 import cli from "assets/img/cli-icon.png"
 import aboutPageStyle from "assets/jss/material-kit-react/views/aboutPage.jsx"
 
-class BlogPage extends React.Component {
+class NotFound extends React.Component {
 	render() {
 		const { classes, ...rest } = this.props
 		const imageClasses = classNames(
@@ -77,4 +77,4 @@ class BlogPage extends React.Component {
 	}
 }
 
-export default withStyles(aboutPageStyle)(BlogPage)
+export default withStyles(aboutPageStyle)(NotFound)
