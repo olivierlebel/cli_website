@@ -41,7 +41,7 @@ class ProductSection extends React.Component {
 						<h5 className={classes.description}>
               We are constantly building new stuff. We have worked on multiple apps for top enterprises.{" "}
 						</h5>
-						<Link to="/products/">More about what we worked on here.</Link>
+						<Link to="/products/">More about apps we worked on here.</Link>
 					</GridItem>
 				</GridContainer>
 				<GridContainer justify="center">
