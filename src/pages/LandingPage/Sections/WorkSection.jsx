@@ -69,9 +69,6 @@ class WorkSection extends React.Component {
 					<Tooltip title={"App Center"} placement="bottom-center">
 						<img src={ac} alt="..." style={icon} />
 					</Tooltip>
-					<Tooltip title={"App Dynamics"} placement="bottom-center">
-						<img src={ad} alt="..." style={icon} />
-					</Tooltip>
 					<Tooltip title={"Android"} placement="bottom-center">
 						<img src={android} alt="..." style={icon} />
 					</Tooltip>
@@ -90,12 +87,6 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Circle CI"} placement="bottom-center">
 						<img src={ci} alt="..." style={icon} />
 					</Tooltip>
-					<Tooltip title={"Dart"} placement="bottom-center">
-						<img src={dart} alt="..." style={icon} />
-					</Tooltip>
-					<Tooltip title={"Docker"} placement="bottom-center">
-						<img src={docker} alt="..." style={icon} />
-					</Tooltip>
 					<Tooltip title={"ES Lint"} placement="bottom-center">
 						<img src={esl} alt="..." style={icon} />
 					</Tooltip>
@@ -104,9 +95,6 @@ class WorkSection extends React.Component {
 					</Tooltip>
 					<Tooltip title={"Firebase"} placement="bottom-center">
 						<img src={fb} alt="..." style={icon} />
-					</Tooltip>
-					<Tooltip title={"Flutter"} placement="bottom-center">
-						<img src={flutter} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Gatsby"} placement="bottom-center">
 						<img src={gatsby} alt="..." style={icon} />
@@ -147,23 +135,11 @@ class WorkSection extends React.Component {
 					<Tooltip title={"Kotlin"} placement="bottom-center">
 						<img src={kotlin} alt="..." style={icon} />
 					</Tooltip>
-					<Tooltip title={"Kafka"} placement="bottom-center">
-						<img src={kafka} alt="..." style={icon} />
-					</Tooltip>
-					<Tooltip title={"Kibana"} placement="bottom-center">
-						<img src={kibana} alt="..." style={icon} />
-					</Tooltip>
-					<Tooltip title={"Maven"} placement="bottom-center">
-						<img src={maven} alt="..." style={icon} />
-					</Tooltip>
 					<Tooltip title={"Microsoft Azure"} placement="bottom-center">
 						<img src={azure} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"MongoDB"} placement="bottom-center">
 						<img src={mongo} alt="..." style={icon} />
-					</Tooltip>
-					<Tooltip title={"NodeJS"} placement="bottom-center">
-						<img src={node} alt="..." style={icon} />
 					</Tooltip>
 					<Tooltip title={"Openshift"} placement="bottom-center">
 						<img src={os} alt="..." style={icon} />

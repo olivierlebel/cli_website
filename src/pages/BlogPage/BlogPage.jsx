@@ -61,7 +61,7 @@ class BlogPage extends React.Component {
 							</GridContainer>
 							<div className={classes.description}>
 								<p>
-                  Please comeback in a few weeks!
+                  Please comeback later!
 								</p>
 								<br /><br /><br />
 							</div>

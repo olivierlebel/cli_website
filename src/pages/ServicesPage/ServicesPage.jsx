@@ -90,7 +90,7 @@ class ServicesPage extends React.Component {
 									</div>
 								</h3>
 								<p>
-                  Learn once, write anywhere. That's the mantra of Facebook with it's React-Native framework.
+                  Learn once, write anywhere. That's the mantra of Facebook with its React-Native framework.
                   Create native apps for Android and iOS using React.
                   React-Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.
 								</p>
@@ -132,23 +132,6 @@ class ServicesPage extends React.Component {
 								<p>
                   We have worked on multiple apps build with Java and Kotlin and we would be happy
                   to build the best Android experience there is for your clients.
-								</p>
-								<h3>
-									<div>
-                    Flutter
-										<a
-											href="https://flutter.dev/"
-											target="_blank"
-											rel="noopener noreferrer"
-											style={{ margin: 5 }}
-										>
-											<img src={flutter} alt="..." style={{ height: 24, width: 24 }}/>
-										</a>
-									</div>
-								</h3>
-								<p>
-                  As React-Native and pure native enthousiast, we have to be excited about Flutter.
-                  We do not have lot of experience with it for now, but it's something we are actually getting certified.
 								</p>
 								<br />
 								<h2>

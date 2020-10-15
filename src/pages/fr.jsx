@@ -142,24 +142,6 @@ class FrPage extends React.Component {
                   Nous avons travaillé avec succès sur quelques applications en Java et Kotlin et nous serions
                   heureux de vous assister dans la construction d'une application iOS native.
 								</p>
-								<h3>
-									<div>
-                    Flutter
-										<a
-											href="https://flutter.dev/"
-											target="_blank"
-											rel="noopener noreferrer"
-											style={{ margin: 5 }}
-										>
-											<img src={flutter} alt="..." style={{ height: 24, width: 24 }}/>
-										</a>
-									</div>
-								</h3>
-								<p>
-                  En tant que fan de React-Native et du développement mobile, nous nous
-									devons d'être excité par Flutter. Nous n'avons pas encore beaucoup d'expérience de développement
-									encore, mais c'est quelque chose que nous travaillons actuellement.
-								</p>
 								<br />
 								<h2>
                   Développement de Site Web
@@ -184,9 +166,9 @@ class FrPage extends React.Component {
                   et plus de 32 000 sites web dans le monde.
 								</p>
 								<p>
-                  Chez CLI, nous avons connaissons très bien le développement utilisant React.
+                  Chez CLI, nous connaissons très bien le développement en React.
                   C'est d'ailleurs le cas pour le site web que vous consultez actuellement.
-                  Il est d'ailleurs construit utilisant Gatsby, un outil puissant permettant
+                  Il est construit utilisant Gatsby, un outil puissant permettant
                   de générer des sites web statiques développés en React.
 								</p>
 								<br />
@@ -345,7 +327,6 @@ class FrPage extends React.Component {
 									<li>JavaScript</li>
 									<li>Java</li>
 									<li>Swift</li>
-									<li>Dart</li>
 								</p>
 								<br />
 								<h6>Frameworks</h6>
@@ -354,7 +335,6 @@ class FrPage extends React.Component {
 									<li>React</li>
 									<li>Typescript</li>
 									<li>Spring Boot</li>
-									<li>Flutter</li>
 								</p>
 								<br />
 								<h6>Plateformes et Outils</h6>
@@ -362,16 +342,14 @@ class FrPage extends React.Component {
 									<li>Firebase</li>
 									<li>Amazon Web Services</li>
 									<li>Microsoft Azure DevOps</li>
+									<li>App Center</li>
 									<li>Jenkins</li>
 									<li>GraphQL</li>
 									<li>Redux</li>
 									<li>Maven</li>
 									<li>Kafka</li>
 									<li>Openshift</li>
-									<li>Kibana</li>
 									<li>Splunk</li>
-									<li>Docker</li>
-									<li>App Dynamics</li>
 								</p>
 								<br /><br />
 							</div>
